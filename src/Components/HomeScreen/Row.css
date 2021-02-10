@@ -1,0 +1,114 @@
+.row{
+    background: #111;
+    color: #fff;
+    padding: 20px;
+}
+h2{
+    margin-bottom: 15px;
+    display: flex;
+    margin:40px 0;
+    align-items: center;
+    justify-content:flex-start;
+}
+.title{
+    padding:10px;
+    border-radius: 6px;
+    background: #e50914;
+
+}
+.rowPosters{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    
+}
+.rowPosters::-webkit-scrollbar{
+    display: none;
+}
+
+.rowPoster{
+    position: relative;
+    width: 300px !important;
+   margin: 0 10px;
+   object-fit: contain;
+   width: 100%;
+ transition: transform 450ms;
+ border-bottom:5px solid #e50914;
+}
+.rowPoster:hover{
+    transform: scale(1.08);
+    opacity: 1;
+    
+}
+.trailer{
+    position: fixed;
+    z-index: 1;
+    top: 0%;  
+    height: 100vh;
+    width: 100%;
+   padding: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.trailer .inner{
+    position: fixed;
+    z-index: 1;
+    width: 370px;
+    height: 330px;
+    background: rgba(189, 21, 21, 0.679);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.card{
+    width: 300px !important;
+    margin: 0 20px !important;
+    position: relative;
+}
+.movieDetail{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+.movieNames{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: rgba(189, 21, 21, 0.679);
+    padding: 5px;
+}
+
+ .LargeCard .rating{
+    color: rgb(245, 210, 14);
+    
+}
+.smallCard .rating{
+    color: rgb(245, 210, 14);
+    
+}
+.LargeCard .date{    
+    color:#888;
+}
+.smallCard .date{
+   
+    color:#8888;
+    font-size: 17px;
+    font-weight: 600;
+
+}
+.smallPoster{
+    height: 280px;
+    object-fit: cover;
+}
+@media(max-width:390px){
+    .row{
+        padding: 20px 10px;
+    }
+    .title{
+        font-size: 1.3rem;
+    }
+}

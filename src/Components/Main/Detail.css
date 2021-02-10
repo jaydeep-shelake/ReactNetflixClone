@@ -1,0 +1,120 @@
+.firtSection,.secondSection,.thirdSection,.freqQue{
+ width:100%;
+ background: #000;
+ display: flex;
+ align-items:center;
+ justify-content: center;
+ border-top: 10px solid #222;
+ padding: 30px 0;
+}
+.freqQue{
+    flex-direction: column;
+}
+.secondSection{
+    flex-direction: row-reverse;
+}
+.text{
+width: 50%;
+color: #fff;
+display: flex;
+align-items:flex-start;
+justify-content: center;
+flex-direction: column;
+padding: 0 60px;
+}
+.text h1{
+    font-size: 3.4rem;
+    font-weight: 400;
+    line-height: 1.2;
+    margin: 10px 0px;
+}
+.text h3{
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+.img{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.img img{
+    width: 80%;
+}
+.question{
+    width: 75%;
+    padding: 10px 40px;
+    cursor: pointer;
+    background: #333;
+    height: 75px;
+    color: #fff;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.5rem;
+}
+.ans{
+    opacity: 0;
+    width: 75%;
+    visibility: hidden;
+    height: 0px;
+    transition: all 0.3s ease;
+}
+.active{
+    transition: all 0.3s ease;
+    opacity: 1;
+    visibility: visible;
+    padding: 20px 30px;
+    background: #333;
+    width: 75%;
+    height: auto;
+    color: #fff;
+    font-size: 1.2rem;
+}
+@media(max-width:1032px){
+    .firtSection,.secondSection,.thirdSection{
+        flex-direction: column;
+    }
+    .text{
+        width: 100%;
+    }
+    .img{
+        width: 100%;
+    }
+}
+@media(max-width:557px){
+    .question{
+        font-size: 1.2rem;
+    }
+    .ans{
+        font-size: 1.1rem;
+    }
+    .text{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 0 15px;
+    }
+    .text h1{
+        font-size: 2.4rem;
+    }
+    .text h3{
+        font-size: 1.2rem;
+    }
+    .question{
+        width: 90%;
+    }
+    .ans{
+        width: 90%;
+    }
+}
+@media(max-width:425px){
+    .text h1{
+        font-size: 2rem;
+    }
+    .text h3{
+        font-size: 1.1rem;
+    }
+}

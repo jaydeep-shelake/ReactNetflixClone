@@ -1,0 +1,51 @@
+.nav{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    padding: 20px;
+    width: 100%;
+    height: 60px;
+    z-index: 1;
+    transition-timing-function:ease-in;
+    transition: all 0.5s;
+}
+.navBlack{
+    background: #111;
+}
+
+.navContent{
+    display: flex;
+    justify-content: space-between;
+}
+.navContent button{
+    position: fixed;
+    top: 10px;
+    right: 20px;
+    background: #e50914;
+    color: #fff;
+    line-height: normal;
+    padding: 7px 17px;
+    font-weight: 400;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius:4px;
+}
+.navContent img{
+    width:43px;
+    height:37px;
+    position: fixed;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+}
+.navContent .navLogo{
+    width: 134px;
+    height: 55px;
+    position: fixed;
+    top:5px;
+    left: 20px;
+    object-fit: contain;
+    cursor: pointer;
+}

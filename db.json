@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "text": "swaraj birthday",
+      "day": "20 jan 12am",
+      "completed": true
+    },
+    {
+      "id": 2,
+      "text": "attending online lectures",
+      "day": "20 jan 1:00pm",
+      "completed": false
+    },
+    {
+      "text": "bhai",
+      "day": "2021-01-20T15:23:02.192Z",
+      "completed": false,
+      "id": 3
+    }
+  ]
+}

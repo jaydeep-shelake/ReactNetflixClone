@@ -1,0 +1,16 @@
+.banner{
+    width: 100%;
+    height: 720px;
+    background: rgba(0, 0, 0, 0.693) url(https://github.com/jaydeep-shelake/NETFLIX-UI-Landing-page/blob/master/netflex-bg.jpg?raw=true);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;  
+}
+@media(max-width:430px){
+    .banner{
+        background-size: contain;
+        height: 600px;
+        background-repeat: repeat;
+    }
+}
