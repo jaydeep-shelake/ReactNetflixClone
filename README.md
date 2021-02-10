@@ -8,9 +8,9 @@
 
 
 ## ⚙️ Detailed Functionality
-* The landing page show the deail about netflix and frequently asked question 
+* The landing page show the detail about netflix and frequently asked questions 
 * User can singin/signup by thier email and can view thire profile or edit thire profile
-* Login user can  view all the list of web series or movies shown by netflix like Netflix originals , Action movies ,Horror...
+* Login users can  view all the list of web series or movies shown by netflix like Netflix originals , Action movies ,Horror...
 * User can click on any series/movie and watch its trailer
 * User can logout any time from the app
 
@@ -33,3 +33,5 @@
 ## All Series/movie List Page
 
 <img src="list.png" width='600' height='auto'>
+
+Link : https://netflixreactclone-93749.web.app/
