@@ -35,3 +35,6 @@
 <img src="list.png" width='600' height='auto'>
 
 Link : https://netflixreactclone-93749.web.app/
+ If you don't want to sign up use this credentials for signin
+ Email : jaydeepshelake@gmail.com
+ Password: Pass@123
