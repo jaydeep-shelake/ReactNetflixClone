@@ -1,4 +1,4 @@
-# NETFLIX-UI-Landing-page
+# NETFLIX React Clone
 <div align="center">
   <img width="200px" src="https://www.freepnglogos.com/uploads/netflix-logo-0.png"/>
 </div>
